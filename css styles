@@ -1,0 +1,42 @@
+p{
+  font-family: "Times New Roman", Times, serif;
+  padding:5px;
+  margin:auto;
+  font-size:20px;
+
+}
+h1{
+  font-size:40px;
+  background-color:lavender;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  width:300px;
+  margin: auto;
+}
+body{
+  background-color:thistle;
+  text-align:center;
+  padding:30px;
+
+}
+div{
+  padding:15px;
+  background-color:black;
+  color:azure;
+  font-family:Times New Roman;
+  margin: auto;
+  text-align:center;
+}
+h3{
+  padding:20px;
+  background-color:black;
+  color:white;
+  width:300px;
+  margin:auto;
+ font-family:Georgia;
+}
+#pad{
+  padding:30px;
+  background-color:plum;
+  color:black;
+}

@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">SURVEY FORM</h1>
+      <br><br>
+      <div><div id="pad"><p id="description"> This survey form requires your name ,email address,phone number,and other requirements form the survey.</div></p>
+      <form id="survey-form">
+        <br><br>
+        <label for="name-label" id="name-label"><h3>Name:<input type="text" id="name" placeholder="enter your name" required></h3></label>
+      <br> <label for="email" id="email-label"> <h3>Email:<input type="email" id="email" placeholder="survey@gmail.com" required></h3></label>
+       <label for="number-label" id="number-label">
+        <br> <p><h3>Enter your age:<input type="number" id="number" placeholder="18 to 45" min="18" max="45" required></label></p></h3>
+         <p><h3>Enter your category:</h3>
+           <select id="dropdown"> 
+             <option>Select your opinion</option>
+             <option>Computer science and engineering[CSE]</option>
+             <option>Information technology[IT]</option>
+             <option>Communication and computer engineering[CCE]</option>
+             <option>Electronics and electrical engineering[EEE]</option>
+            <option>AIDS</option>
+            <option>AIML</option>
+           </select>
+          </p>
+          <p><h3>How was the classes going on:</h3>Very Good<input type="radio" name="op" value="one"><br>Good<input type="radio" name="op" value="one"><br>Satisfactory<input type="radio" name="op" value="one"></p>
+        <p>
+          <p><h3>Select your most favorite class:</h3>Maths<input type="checkbox" value="mat" id="mat"><br>
+          Chemistry<input type="checkbox" value="mat" id="ch">
+         <br>PSC<input type="checkbox" value="mat" id="psc">
+          <br> Data Structure<input type="checkbox" value="mat" id="at">
+        </p>
+       <br><br> <p><label for="submit"><button type="submit" id="submit">submit</label></button>
+        <p><br><br>
+          <em>Please note: This form is a proof of concept.Submitting the for will not actually transmit your data.</em>
+        </p>
+      </form>
+      </body>
+      <br><br><br>
+      <footer>
+    <a href="../">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+  <br><br>
+  <textarea rows="4" cols="50">
+You can provide comments, suggestions, or feedback here.</textarea><br>
+        </div>
+        </body>
+  </html>
